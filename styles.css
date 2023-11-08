@@ -421,6 +421,38 @@ body {
     filter: grayscale();
 }
 
+.full_history {
+    display: flex;
+    flex-direction: column;
+
+    height: 1500px;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 15px 50px;
+
+    background-color:rgb(17, 17, 17, 0.8)
+}
+
+#work_history_title {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#date {
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#job_title {
+    color: white;
+    font-weight: 400;
+    font-size: xx-large;
+
+}
+
 
 /* About page end*/
 
@@ -441,4 +473,37 @@ body {
     justify-content: center;
     text-align: center;
     
+}
+
+
+
+/* Under Construction */
+
+.under__construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1500px;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 15px 50px;
+
+
+}
+
+#construction__notice {
+    margin-top: 300px;
+    margin-bottom: 50px;
+    color: orange;
+
+    background-color: rgb(17, 17, 17, 0.9);
+
+}
+
+
+#construction__notice__extra {
+    color: rgb(213, 140, 5);
+    background-color: rgb(17, 17, 17, 0.9);
+    padding: 5px;
 }
