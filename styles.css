@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-size: cover;
+}
+
+
+
+.navbar {
+    background: #002a3e;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__title {
+    font-family: "Space Grotesk";
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.1s ease;
+    font-size: xx-large;
+
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item{
+    height: 80px;
+}
+
+.navbar__links{
+    font-family: "Space Grotesk";
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.1s ease;
+    font-size: x-large;
+
+    background-color: #002a3e;
+    border-radius: 0px;
+}
+
+.navbar__links:hover{
+    color: #c4c4c4;
+    transition: all 0.3s ease;
+}
+
+/* Home Section */
+
+
+.home__container {
+    display: flex;
+    justify-content: right;
+    height: 1500px;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 15px 50px;
+
+    background-color:rgb(17, 17, 17, 0.8)
+}
+
+.recent__work {
+    min-width: 60%;
+    max-width: 60%;
+    float: left;
+
+    color: #ffffff;
+
+
+    
+}
+
+.recent__work__images {
+    display: flex;
+    justify-content: left;
+    flex-wrap: left;
+
+}
+
+.column1 {
+    max-width: 50%;
+    display: block;
+}
+
+.column2 {
+    max-width: 50%;
+    display: block;
+}
+
+
+.about__jack {
+    float: right;
+    color: #ffffff;
+
+    text-align: right;
+
+}
+
+#divider__line {
+    background-color: #002a3e;
+    color: #002a3e;
+    border-width: 0;
+    height: 6px;
+    width: 45%;
+    margin-bottom: 3rem;
+    margin-left: 55%;
+
+}
+
+#name {
+    padding-bottom: 1rem;
+    letter-spacing: 1rem;
+}
+
+#occupation {
+    padding-bottom: 2rem;
+    color: orange;
+}
+
+#description {
+    padding-bottom: 5rem;
+    text-align: left;
+}
+
+
+/* Project thumbnails */
+
+.project__thumbnail {
+    position: relative;
+    width: 500px;
+
+    padding: 5px;
+    justify-content: center;
+
+}
+
+.project__thumbnail__image {
+    display: block;
+    width: 100%;
+
+}
+
+.project__thumbnail__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 44, 69, 0.6);
+    color: #ffffff;
+    font-family: "Space Grotesk";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+}
+
+.project__thumbnail__overlay:hover {
+    opacity: 1;
+    transition: opacity 0.25s;
+
+
+}
+
+.project__thumbnail__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project__thumbnail__description {
+    font-size: 1.4rem;
+    color: #ffffff;
+
+}
+
+
+
+
+
+/* Portfolio*/
+
+.portfolio__column {
+    max-width: 50%;
+    display: block;
+
+}
+
+.portfolio__column__2 {
+    max-width: 50%;
+    display: block;
+
+}
+
+.portfolio__container {
+    display: flex;
+    justify-content: center;
+    height: 1500px;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 25px 25px;
+    background-color:rgb(17, 17, 17, 0.8)
+}
+
+
+.project__thumbnail__portfolio__page {
+    position: relative;
+    width: 750px;
+
+}
+/* Portfolio End*/
+
+/* Project page*/
+
+.top_holder {
+    background-color:rgb(17, 17, 17, 0.8)
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+
+}
+
+#title__text {
+
+    color: wheat;
+    /*color: #E3BB1C;*/
+    font-size: 6rem;
+
+}
+
+.description {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+    text-align: center;
+
+    width: 50%;
+
+
+}
+
+.description__text {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+#project__section__divider__line {
+    background-color: #002a3e;
+    color: #002a3e;
+    border-width: 0;
+    height: 6px;
+    width: 100%;
+
+}
+
+
+.middle_holder {
+    display: flex;
+    height: 1400px;
+    width: 100%;
+
+}
+
+
+.production__credits {
+    background-color:rgb(17, 17, 17, 0.8);
+    width: 15%;
+    padding-left: 40px;
+
+    padding-bottom: 500px;
+}
+
+#production {
+    font-size: 3rem;
+}
+
+#team {
+    font-size: 7rem;
+}
+
+#role {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#person {
+    font-weight: 400;
+    font-size: large;
+    padding-bottom: 25px;
+}
+
+
+
+
+.production__images__container {
+    display: flex;
+    justify-content: center;
+}
+
+.production__images__column1 {
+    max-width: 50%;
+    display: block;
+}
+
+.production__images__column2 {
+    max-width: 50%;
+    display: block;
+
+}
+
+.production__images__column3 {
+    max-width: 50%;
+    display: block;
+
+}
+
+.image {
+    width: 600px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+
+}
+
+
+
+
+
+
+.full_credits_container {
+    background-color:rgb(17, 17, 17, 0.8)
+}
+
+.full_credits_header {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.full_credits {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+    text-align: center;
+
+    width: 50%;
+
+    padding-bottom: 35px;
+}
+
+.photo_credits {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+    text-align: center;
+
+    width: 50%;
+
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+/* Project page end*/
+
+
+/* About page */
+
+
+
+.jack_photo_image {
+    width: 500px;
+    padding: 5px;
+    margin-right: 700px;
+    filter: grayscale();
+}
+
+
+/* About page end*/
+
+
+/* Footer CSS */
+
+.footer__container {
+    background-color: #002a3e;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
