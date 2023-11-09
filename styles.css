@@ -164,7 +164,7 @@ body {
     position: relative;
     width: 500px;
 
-    padding: 5px;
+    margin: 5px;
     justify-content: center;
 
 }
@@ -231,7 +231,7 @@ body {
 .portfolio__container {
     display: flex;
     justify-content: center;
-    height: 1500px;
+    height: 1600px;
     width: 100%;
     max-width: 2000px;
     margin: 0 auto;
@@ -243,6 +243,7 @@ body {
 .project__thumbnail__portfolio__page {
     position: relative;
     width: 750px;
+    margin:10px;
 
 }
 /* Portfolio End*/
