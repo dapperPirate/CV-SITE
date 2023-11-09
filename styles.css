@@ -153,21 +153,21 @@ body {
 #name {
     padding-bottom: 1rem;
     letter-spacing: 1rem;
-    font-size: 4vw;
+    font-size: 3vw;
 
 }
 
 #occupation {
     padding-bottom: 2rem;
     color: orange;
-    font-size: 1.6vw;
+    font-size: 1.3vw;
 
 }
 
 #description {
     padding-bottom: 5rem;
     text-align: left;
-    font-size: 1.6vw;
+    font-size: 1vw;
 
 }
 
@@ -280,6 +280,7 @@ body {
 
     background: -webkit-linear-gradient(wheat,white);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     
     /*color: #E3BB1C;*/
@@ -449,12 +450,24 @@ body {
 
 /* About page */
 
+.about__container {
+    display: flex;
+    justify-content: right;
+    height: auto;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 15px 50px;
+
+    background-color:rgb(17, 17, 17, 0.8)
+}
 
 
 .jack_photo_image {
-    width: 500px;
+    width: auto;
+    max-width: 50%;
     padding: 5px;
-    margin-right: 700px;
+    margin-right: auto;
     filter: grayscale();
 }
 
