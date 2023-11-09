@@ -7,6 +7,8 @@
 
 body {
     background-size:cover;
+    background-position: center;
+
 }
 
 
@@ -77,6 +79,10 @@ body {
 .navbar__links:hover{
     color: #c4c4c4;
     transition: all 0.3s ease;
+}
+
+#contact-page {
+    margin-left: -20px;
 }
 
 /* Home Section */
@@ -162,7 +168,8 @@ body {
 
 .project__thumbnail {
     position: relative;
-    width: 500px;
+    width: auto;
+    max-width: 90%;
 
     margin: 5px;
     justify-content: center;
@@ -170,8 +177,8 @@ body {
 }
 
 .project__thumbnail__image {
-    display: block;
-    width: 100%;
+    max-width: 100%;
+    width: auto;
 
 }
 
@@ -231,7 +238,7 @@ body {
 .portfolio__container {
     display: flex;
     justify-content: center;
-    height: 1600px;
+    height: auto;
     width: 100%;
     max-width: 2000px;
     margin: 0 auto;
@@ -242,10 +249,11 @@ body {
 
 .project__thumbnail__portfolio__page {
     position: relative;
-    width: 750px;
-    margin:10px;
+    width: auto;
+    margin:20px;
 
 }
+
 /* Portfolio End*/
 
 /* Project page*/
@@ -297,7 +305,8 @@ body {
 
 .middle_holder {
     display: flex;
-    height: 1400px;
+    height: auto;
+    min-height: 1000px;
     width: 100%;
 
 }
@@ -358,14 +367,12 @@ body {
 }
 
 .image {
-    width: 600px;
+    max-width: fit-content;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 4px;
 
 }
-
-
 
 
 
