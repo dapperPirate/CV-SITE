@@ -272,7 +272,7 @@ body {
 
     color: wheat;
     /*color: #E3BB1C;*/
-    font-size: 6rem;
+    font-size: 5vw;
 
 }
 
@@ -283,14 +283,14 @@ body {
 
     text-align: center;
 
-    width: 50%;
+    width: 70%;
 
 
 }
 
-.description__text {
+#description__text {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1vw;
 }
 
 #project__section__divider__line {
@@ -315,29 +315,29 @@ body {
 .production__credits {
     background-color:rgb(17, 17, 17, 0.8);
     width: 15%;
-    padding-left: 40px;
+    padding-left: 1vw;
 }
 
 
 #production {
     padding-top: 25px;
-    font-size: 3rem;
+    font-size: 2vw;
 }
 
 #team {
-    font-size: 6.96rem;
-    margin-top: -40px;
+    font-size: 4.65vw;
+    margin-top: -1.5vw;
     margin-bottom: 30px;
 }
 
 #role {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1vw;
 }
 
 #person {
     font-weight: 400;
-    font-size: large;
+    font-size: 0.8vw;
     padding-bottom: 25px;
 }
 
@@ -388,6 +388,19 @@ body {
     display: flex;
 }
 
+#credits_header_text {
+    font-size: 2vw;
+}
+
+#full_credits_text {
+    font-size: 1vw;
+}
+
+
+#photo_credits_text {
+    font-size: 1vw;
+}
+
 .full_credits {
     justify-content: center;
     display: flex;
@@ -395,7 +408,8 @@ body {
 
     text-align: center;
 
-    width: 50%;
+    width: auto;
+    max-width: 50%;
 
     padding-bottom: 35px;
 }
