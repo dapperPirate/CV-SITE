@@ -15,7 +15,8 @@ body {
 
 .navbar {
     background: #002a3e;
-    height: 80px;
+    height: 3.5vw;
+    max-height: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +58,8 @@ body {
 }
 
 .navbar__item{
-    height: 80px;
+    height: 3.5vw;
+    max-height: 4vw;
 }
 
 .navbar__links{
@@ -70,7 +72,7 @@ body {
     text-decoration: none;
     height: 100%;
     transition: all 0.1s ease;
-    font-size: x-large;
+    font-size: 1vw;
 
     background-color: #002a3e;
     border-radius: 0px;
@@ -151,16 +153,22 @@ body {
 #name {
     padding-bottom: 1rem;
     letter-spacing: 1rem;
+    font-size: 4vw;
+
 }
 
 #occupation {
     padding-bottom: 2rem;
     color: orange;
+    font-size: 1.6vw;
+
 }
 
 #description {
     padding-bottom: 5rem;
     text-align: left;
+    font-size: 1.6vw;
+
 }
 
 
@@ -207,12 +215,12 @@ body {
 }
 
 .project__thumbnail__title {
-    font-size: 2rem;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
 .project__thumbnail__description {
-    font-size: 1.4rem;
+    font-size: 1.3vw;
     color: #ffffff;
 
 }
@@ -270,7 +278,10 @@ body {
 
 #title__text {
 
-    color: wheat;
+    background: -webkit-linear-gradient(wheat,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
     /*color: #E3BB1C;*/
     font-size: 5vw;
 
@@ -306,7 +317,7 @@ body {
 .middle_holder {
     display: flex;
     height: auto;
-    min-height: 1000px;
+    min-height: auto;
     width: 100%;
 
 }
@@ -316,6 +327,8 @@ body {
     background-color:rgb(17, 17, 17, 0.8);
     width: 15%;
     padding-left: 1vw;
+    padding-right: 1vw;
+
 }
 
 
@@ -507,7 +520,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1500px;
+    height: 50vw;
     width: 100%;
     max-width: 2000px;
     margin: 0 auto;
@@ -517,11 +530,13 @@ body {
 }
 
 #construction__notice {
-    margin-top: 300px;
-    margin-bottom: 50px;
+    margin-top: 10vw;
+    margin-bottom: 2vw;
     color: orange;
 
     background-color: rgb(17, 17, 17, 0.9);
+
+    font-size: 2.5vw;
 
 }
 
@@ -529,5 +544,7 @@ body {
 #construction__notice__extra {
     color: rgb(213, 140, 5);
     background-color: rgb(17, 17, 17, 0.9);
-    padding: 5px;
+    padding: 0.3vw;
+    font-size: 1.3vw;
+
 }
