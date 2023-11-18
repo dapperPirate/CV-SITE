@@ -471,9 +471,9 @@ body {
 
 /* About page */
 
-.about__container {
+.about__page__container {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     height: auto;
     width: 100%;
     max-width: 2000px;
@@ -481,6 +481,31 @@ body {
     padding: 15px 2vw;
 
     background-color:rgb(17, 17, 17, 0.8)
+}
+
+.about__jack__description__left{
+    float: left;
+    color: #ffffff;
+
+    text-align: right;
+
+    width: auto;
+    max-width: 30vw;
+    margin-right: 3vw;
+    margin-top: 19.5vh;
+
+}
+
+.about__jack__description{
+    float: right;
+    color: #ffffff;
+
+    text-align: right;
+
+    width: auto;
+    max-width: 30vw;
+    margin-left: 1vw;
+
 }
 
 
@@ -510,6 +535,8 @@ body {
     color: rgb(214, 214, 214);
     font-weight: 400;
     font-size: 1.5vw;
+    margin-bottom: 1vh;
+    margin-top: -0.7vh;
 
 }
 
