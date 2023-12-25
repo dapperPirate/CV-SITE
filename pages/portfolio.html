@@ -63,8 +63,12 @@
 <!--Navigation bar-->
 <nav class="navbar">
     <div class="navbar__container">
-        <a href="../index.html" class="navbar__title">JS-LD</a>
-        <ul class="navbar__menu">
+        <a href="../index.html" class="navbar__title">
+            <h1 id="navbar__title__JS">JS</h1>
+            <h1 id="navbar__title__LD">LD</h1>
+            </a>
+            
+            <ul class="navbar__menu">
             <li class="navbar__item"> <a href="../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
 
             <li class="navbar__item"> <a href="../pages/about.html" class="navbar__links" id="about-page">About</a> </li>
@@ -75,8 +79,7 @@
 </nav>
 <!--end of Navigation bar-->
 
-<div class="page_container">
-<div class="content_wrap">
+<div class="page__container">
 
 
 <div class="portfolio__container">
@@ -84,10 +87,34 @@
     <div class="portfolio__column">
 
         <div class=project__thumbnail__portfolio__page>
+            <a href="../pages/portfolio/nativity.html">
+                <img class=project__thumbnail__image src="../work/nativity/warmAndBlue.jpg" alt="The Nativity Journey 2023">
+                <div class="project__thumbnail__overlay">
+                    <div class="project__thumbnail__title">The Nativity Journey</div>
+                    <p class="project__thumbnail__description"> Winterhsall Estate 2023</p>
+                </div>
+            </a>
+        </div>
+
+        <div class=project__thumbnail__portfolio__page>
             <a href="../pages/portfolio/calendarGirls.html">
                 <img class=project__thumbnail__image src="../work/calendarGirls/CG - all.jpg" alt="Calendar Girls - All">
                 <div class="project__thumbnail__overlay">
                     <div class="project__thumbnail__title">Calendar Girls</div>
+                    <p class="project__thumbnail__description"> Camberley Theatre 2023</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="portfolio__column__2">
+
+        <div class=project__thumbnail__portfolio__page>
+            <a href="../pages/portfolio/cats.html">
+                <img class=project__thumbnail__image src="../work/cats/CATS - all.jpg" alt="Cats - All">
+                <div class="project__thumbnail__overlay">
+                    <div class="project__thumbnail__title">Cats - 24 Hour Musical</div>
                     <p class="project__thumbnail__description"> Camberley Theatre 2023</p>
                 </div>
             </a>
@@ -103,44 +130,6 @@
             </a>
         </div>
 
-                <!-- 
-
-        <div class=project__thumbnail__portfolio__page>
-            <a href="../pages/portfolio/nativity.html">
-                <img class=project__thumbnail__image src="../work/nativity/warmAndBlue.jpg" alt="Nativity">
-                <div class="project__thumbnail__overlay">
-                    <div class="project__thumbnail__title">Nativity</div>
-                    <p class="project__thumbnail__description"> Winterhsall Charity 2021</p>
-                </div>
-            </a>
-        </div>
-        -->
-
-
-    </div>
-
-    <div class="portfolio__column__2">
-
-        <div class=project__thumbnail__portfolio__page>
-            <a href="../pages/portfolio/cats.html">
-                <img class=project__thumbnail__image src="../work/cats/CATS - all.jpg" alt="Cats - All">
-                <div class="project__thumbnail__overlay">
-                    <div class="project__thumbnail__title">Cats - 24 Hour Musical</div>
-                    <p class="project__thumbnail__description"> Camberley Theatre 2023</p>
-                </div>
-            </a>
-        </div>
-        <!-- 
-        <div class=project__thumbnail__portfolio__page>
-            <a href="../pages/portfolio/nativity.html">
-                <img class=project__thumbnail__image src="../work/nativity/warmAndBlue.jpg" alt="Nativity">
-                <div class="project__thumbnail__overlay">
-                    <div class="project__thumbnail__title">Nativity</div>
-                    <p class="project__thumbnail__description"> Winterhsall Charity 2022</p>
-                </div>
-            </a>
-        </div>
-        -->
 
     </div>
 </div>
@@ -149,8 +138,27 @@
 
 <!-- Footer Section -->
 <div class="footer__container">
-    <h6 class="footer__text">jackshorter22@outlook.com<br><br>© 2023 by Jack Shorter. All Rights Reserved.</h6>
-</div>
+
+    <div class="footer__columns">
+
+        <div class="footer__left">
+            <ul class="footer__list">
+                <li class="footer__list__item"> <a href="../pages/portfolio.html" class="footer__list__links" id="portfolio-page">PORTFOLIO</a> </li>
+                <li class="footer__list__item"> <a href="../pages/about.html" class="footer__list__links" id="about-page">ABOUT</a> </li>
+                <li class="footer__list__item"> <a href="../pages/contact.html" class="footer__list__links" id="contact-page">CONTACT</a> </li>
+            </ul>
+        </div>
+
+        <div class="footer__right">
+            <img id="footer__logo" src="../work/big_logo.png">
+        </div>
+
+    </div>
+
+    <div class="footer__end">
+        <h6 id="footer__text">jackshorter22@outlook.com<br>© 2023 by Jack Shorter. All Rights Reserved.</h6>
+    </div>
+
 
 </div>
 

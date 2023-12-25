@@ -67,8 +67,12 @@
 <!--Navigation bar-->
 <nav class="navbar">
     <div class="navbar__container">
-        <a href="../../index.html" class="navbar__title">JS-LD</a>
-        <ul class="navbar__menu">
+        <a href="../../index.html" class="navbar__title">
+            <h1 id="navbar__title__JS">JS</h1>
+            <h1 id="navbar__title__LD">LD</h1>
+            </a>
+            
+            <ul class="navbar__menu">
             <li class="navbar__item"> <a href="../../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
 
             <li class="navbar__item"> <a href="../../pages/about.html" class="navbar__links" id="about-page">About</a> </li>
@@ -79,10 +83,10 @@
 </nav>
 <!--end of Navigation bar-->
 
-<div class="page_container">
-<div class="content_wrap">
+<div class="page__container">
+<div class="content__wrap">
 
-<div class="top_holder">
+<div class="top__holder">
 
     <div class="title">
 
@@ -108,15 +112,24 @@
 
 
 
-<div class="middle_holder">
+<div class="middle__holder">
 
     <div class="production__credits">
 
-        <h1 id="production">PRODUCTION</h1>
-        <h1 id="team">TEAM</h1>
+        <div class="production__team__title__container">
+            <h1 id="production">PRODUCTION</h1>
+            <h1 id="team">TEAM</h1>
+        </div>
 
-        <h1 id="role"></h1>
-        <h3 id="person"></h3>
+        <div class="production__credit__outer__container">
+
+            <div class="production__credit__container">
+                <h1 id="role"></h1>
+                <h3 id="person"></h3>
+            </div>
+
+        </div>
+
     </div>
 
 
@@ -147,21 +160,21 @@
 <hr id="project__section__divider__line" >
 
 
-<div class="full_credits_container">
+<div class="full__credits__container">
 
-    <div class="full_credits_header">
-        <h1 id="credits_header_text"><!--Credits header [Full production credits / cast and crew / whatever]--></h1>
-
-    </div>
-
-    <div class="full_credits">
-
-        <p id="full_credits_text"><!--Cast amd crew--></p>
+    <div class="full__credits__header">
+        <h1 id="credits__header__text"><!--Credits header [Full production credits / cast and crew / whatever]--></h1>
 
     </div>
 
-    <div class="photo_credits">
-        <p id="photo_credits_text"><b>Production Photographs</b> - <!--Photographer--></p>
+    <div class="full__credits">
+
+        <p id="full__credits__text"><!--Cast amd crew--></p>
+
+    </div>
+
+    <div class="photo__credits">
+        <p id="photo__credits__text"><b>Production Photographs</b> - <!--Photographer--></p>
     </div>
 
 </div>
@@ -170,7 +183,27 @@
 
 <!-- Footer Section -->
 <div class="footer__container">
-    <h6 class="footer__text">jackshorter22@outlook.com<br><br>© 2023 by Jack Shorter. All Rights Reserved.</h6>
+
+    <div class="footer__columns">
+
+        <div class="footer__left">
+            <ul class="footer__list">
+                <li class="footer__list__item"> <a href="../../pages/portfolio.html" class="footer__list__links" id="portfolio-page">PORTFOLIO</a> </li>
+                <li class="footer__list__item"> <a href="../../pages/about.html" class="footer__list__links" id="about-page">ABOUT</a> </li>
+                <li class="footer__list__item"> <a href="../../pages/contact.html" class="footer__list__links" id="contact-page">CONTACT</a> </li>
+            </ul>
+        </div>
+
+        <div class="footer__right">
+            <img id="footer__logo" src="../../work/big_logo.png">
+        </div>
+
+    </div>
+
+    <div class="footer__end">
+        <h6 id="footer__text">jackshorter22@outlook.com<br>© 2023 by Jack Shorter. All Rights Reserved.</h6>
+    </div>
+
 </div>
 
 </div>
