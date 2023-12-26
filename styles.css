@@ -151,7 +151,6 @@ body {
 .slideshow__thumbnail {
     display: flex;
 	aspect-ratio: 16 / 9;
-
     animation: slider;
     animation-duration: 30s;
     animation-iteration-count: infinite;
@@ -162,8 +161,9 @@ body {
 #slideshow__thumbnail__image {
 	flex: 1 0 100%;
 	scroll-snap-align: start;
-	/*object-fit: cover;*/
+	object-fit: cover;
     min-height: 100vh;
+    height: 100vh;
 }
 
 #slideshow__thumbnail__title {
