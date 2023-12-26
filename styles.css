@@ -36,8 +36,8 @@ body {
 
 .navbar {
     background: #00131e;
-    height: 6.5vw;
-    max-height: 6.5vw;
+    height: 4vw;
+    max-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,8 +205,7 @@ body {
     opacity: 1;
     filter: brightness(150%);
     z-index: 100;
-    right: 13vw;
-    top: -1vw;
+    right: 11vw;
 
 }
 
@@ -444,7 +443,7 @@ body {
     display: none;
 }
 
-.middle_holder {
+.middle__holder {
     display: flex;
     height: auto;
     min-height: auto;
@@ -582,7 +581,7 @@ body {
 }
 
 
-#work_history_title {
+#work__history__title {
     color: rgb(234, 234, 234);
     font-weight: bold;
     padding-bottom: 25px;
@@ -595,7 +594,7 @@ body {
     font-size: 1.5vw;
 }
 
-#job_title {
+#job__title {
     color: rgb(214, 214, 214);
     font-weight: 400;
     font-size: 1.5vw;
@@ -737,7 +736,8 @@ body {
     padding: 0.3vw;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    font-weight: 400;
 }
 
 /* Mobile version */
@@ -748,7 +748,7 @@ body {
 
     .navbar {
         height: 10vw;
-        max-height: 10vw;
+        max-height: 80px;
     }
 
     .navbar__links {
@@ -897,7 +897,7 @@ body {
         margin: 0%;
     }
 
-    #work_history_title {
+    #work__history__title {
         font-size: 6vw;
     }
 
@@ -906,7 +906,7 @@ body {
         margin-bottom: 3vw;
     }
 
-    #job_title {
+    #job__title {
         font-size: 4vw;
         margin-bottom: 3vw;
     }
@@ -955,7 +955,7 @@ body {
         width: 100%;
     }
 
-    .middle_holder {
+    .middle__holder {
         flex-direction: column;
     }
 
@@ -1032,11 +1032,11 @@ body {
     }
 
     #footer__logo {
-        margin-top: 1vw;
+        width: 15vw;
     }
 
     .footer__left {
-
+        display: none;
     }
 
     .footer__right {
@@ -1047,4 +1047,10 @@ body {
         margin-top: 0;
     }
 
+    #footer__copyright__notice {
+        font-size: 1vw;
+
+        margin-top: -3vw;
+
+    }
 }
