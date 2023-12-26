@@ -113,7 +113,7 @@ body {
     margin-right: 0.6vw;
     text-decoration: none;
     transition: all 0.1s ease;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     background-color: rgba(23, 44, 69, 0);
     border-radius: 0px;
 }
@@ -162,6 +162,9 @@ body {
 	flex: 1 0 100%;
 	scroll-snap-align: start;
 	object-fit: cover;
+
+    width: 100%;
+    min-height: 100%;
 }
 
 #slideshow__thumbnail__title {
@@ -205,8 +208,8 @@ body {
     opacity: 1;
     filter: brightness(150%);
     z-index: 100;
-    right: 11vw;
-
+    right: 0;
+    margin-right: 14vw;
 }
 
 @keyframes fadeout {
@@ -608,22 +611,22 @@ body {
 
 #about__page__name {
     padding-bottom: 0.5rem;
-    letter-spacing: 0.5rem;
-    font-size: 4vw;
-    text-align: center;
+    letter-spacing: 1.4rem;
+    font-size: 3vw;
+    text-align: right;
 }
 
 #about__page__occupation {
-    text-align: center;
+    text-align: right;
     padding-bottom: 1rem;
     color: orange;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 
 #about__page__description {
     padding-bottom: 3rem;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /* Footer CSS */
