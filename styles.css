@@ -205,7 +205,7 @@ body {
     max-width: 14%;
     width: auto;
     opacity: 1;
-    filter: brightness(150%);
+    filter: brightness(130%);
     z-index: 100;
     right: 0;
     margin-right: 14vw;
@@ -638,7 +638,7 @@ body {
 #footer__logo{
     width: 10vw;
     margin-top: 1vw;
-    filter: brightness(125%);
+    filter: brightness(110%);
 }
 
 .footer__left{
@@ -749,28 +749,28 @@ body {
     /*Nav bar*/
 
     .navbar {
-        height: 10vw;
+        height: 4rem;
         max-height: 80px;
     }
 
     .navbar__links {
-        font-size: 4vw;
+        font-size: 1rem;
         margin-left: 1vw;/*space between elements*/
         margin-right: 1vw;
     }
 
     #navbar__title__JS {
-        font-size: 5vw;
+        font-size: 2rem;
     }
 
     #navbar__title__LD {
-        font-size: 5vw;
+        font-size: 2rem;
     }
 
     /*Logo and slideshow*/
 
     .logo__and__slideshow__container {
-        width: 90%;
+        width: 100%;
         display: none;
     }
 
@@ -792,7 +792,7 @@ body {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        width: 90%;
+        width: 100%;
         max-width: 2000px;
         margin: 0 auto;
         padding: 15px 50px;
@@ -820,7 +820,7 @@ body {
     }
 
     #recent__work__text {
-        font-size: 4vw;
+        font-size: 1.5rem;
     }
 
     .about__jack {
@@ -835,8 +835,8 @@ body {
 
     #name {
         padding-bottom: 0.5rem;
-        letter-spacing: 0.5rem;
-        font-size: 4vw;
+        letter-spacing: 0.2rem;
+        font-size: 2.2rem;
         text-align: center;
     }
     
@@ -844,13 +844,13 @@ body {
         text-align: center;
         padding-bottom: 1rem;
         color: orange;
-        font-size: 2.5vw;
+        font-size: 1rem;
     }
     
     #description {
         padding-bottom: 3rem;
         text-align: center;
-        font-size: 2vw;
+        font-size: 1rem;
     }
 
     .project__thumbnail__overlay {
@@ -860,14 +860,14 @@ body {
     }
 
     .project__thumbnail__title {
-        font-size: 4vw;
+        font-size: 1.3rem;
         background: rgba(23, 44, 69, 0.65);
         padding-left: 1vw;
         padding-right: 1vw;
     }
 
     .project__thumbnail__description {
-        font-size: 3.7vw;
+        font-size: 1.2rem;
         background: rgba(23, 44, 69, 0.65);
         padding-left: 1vw;
         padding-right: 1vw;
@@ -876,18 +876,19 @@ body {
     /*Portfolio Page*/
 
     .portfolio__column {
-        max-width: 80%;    
+        max-width: 90%;    
     }
     
     .portfolio__column__2 {
-        max-width: 80%;
+        max-width: 90%;
     }
     
     .portfolio__container {
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 100%;
         min-height: 90vh;
+        height: auto;
     }
     
     .project__thumbnail__portfolio__page {
@@ -899,16 +900,17 @@ body {
     .about__page__container {
         flex-direction: column-reverse;
         align-items: center;
+        width: 100%;
     }
 
     .about__jack__description__left {
-        max-width: 80%;
+        max-width: 90%;
         margin: 0%;
         text-align: center;
     }
 
     .about__jack__description {
-        max-width: 80%;
+        max-width: 90%;
         margin: 0%;
     }
 
@@ -932,15 +934,17 @@ body {
 
     #about__page__name {
         text-align: center;
-        font-size: 8vw;
+        font-size: 2.2rem;
+        letter-spacing: 0.2rem;
     }
     
     #about__page__occupation {
-        font-size: 3.5vw;
+        font-size: 1rem;
+        text-align: center;
     }
     
     #about__page__description {
-        font-size: 4vw;
+        font-size: 1rem;
     }
 
     /*Project Page*/
@@ -1043,11 +1047,11 @@ body {
     /*Footer*/
 
     .footer__container {
-        height: 16vw;
+        height: 10rem;
     }
 
     #footer__logo {
-        width: 15vw;
+        width: 9rem;
     }
 
     .footer__left {
@@ -1063,7 +1067,7 @@ body {
     }
 
     #footer__copyright__notice {
-        font-size: 1vw;
+        font-size: 0.6rem;
 
         margin-top: -3vw;
 
