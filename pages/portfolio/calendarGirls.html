@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
     <!--
     Big Heading
@@ -72,8 +71,9 @@
             <h1 id="navbar__title__LD">LD</h1>
             </a>
             
-            <ul class="navbar__menu">
-            <li class="navbar__item"> <a href="../../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
+            <button class="mobile__nav__toggle" expanded="false"></button>
+            
+            <ul class="navbar__menu" data-visible="false">            <li class="navbar__item"> <a href="../../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
 
             <li class="navbar__item"> <a href="../../pages/about.html" class="navbar__links" id="about-page">About</a> </li>
 
@@ -168,31 +168,21 @@
     <hr id="project__section__divider__line__2" >
 
 
-    <div class="production__images__container">
+    <div class="production__images__container" show-name="calendar-girls">
 
-        <div class="production__images__column1">
 
-            <div class="image"><img class=image src="../../work/calendarGirls/CG - all.jpg" alt="Calendar Girls - All"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/CG - annie alone.jpg" alt="Annie alone"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/Annie grieves.jpg" alt="Annie grieves"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/annie alone.jpg" alt="Annie alone"></div>
-
-        </div>
-
-        <div class="production__images__column2">
-            <div class="image"><img class=image src="../../work/calendarGirls/father and son.jpg" alt="Father and Son"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/cg - sunflower seeds.jpg" alt="Sunflower cocktail"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/cg - who wants a silent night.jpg" alt="Who wants a Silent Night?"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/Sunflowe turmoil.jpg" alt="Sunflower Turmoil"></div>
-
-        </div>
-        <div class="production__images__column3">
-            <div class="image"><img class=image src="../../work/calendarGirls/the girls.jpg" alt="The Girls"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/CG - single spot.jpg" alt="Annie Alone"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/moonlight conversation.jpg" alt="Chris and Annie talk"></div>
-            <div class="image"><img class=image src="../../work/calendarGirls/CG Russian friend.jpg" alt="Russian Friend"></div>
-
-        </div>
+        <div class="image"><img class=image src="../../work/calendarGirls/CG - all.jpg" alt="Calendar Girls - All"></div>
+        <div class="image tall"><img class=image src="../../work/calendarGirls/father and son.jpg" alt="Father and Son"></div>
+        <div class="image"><img class=image src="../../work/calendarGirls/the girls.jpg" alt="The Girls"></div>
+        <div class="image tall"><img class=image src="../../work/calendarGirls/CG - annie alone.jpg" alt="Annie alone"></div>
+        <div class="image tall"><img class=image src="../../work/calendarGirls/CG - single spot.jpg" alt="Annie Alone"></div>
+        <div class="image"><img class=image src="../../work/calendarGirls/cg - sunflower seeds.jpg" alt="Sunflower cocktail"></div>
+        <div class="image"><img class=image src="../../work/calendarGirls/Annie grieves.jpg" alt="Annie grieves"></div>
+        <div class="image"><img class=image src="../../work/calendarGirls/cg - who wants a silent night.jpg" alt="Who wants a Silent Night?"></div>
+        <div class="image tall"><img class=image src="../../work/calendarGirls/moonlight conversation.jpg" alt="Chris and Annie talk"></div>
+        <div class="image tall"><img class=image src="../../work/calendarGirls/annie alone.jpg" alt="Annie alone"></div>
+        <div class="image tall"><img class=image src="../../work/calendarGirls/Sunflowe turmoil.jpg" alt="Sunflower Turmoil"></div>
+        <div class="image"><img class=image src="../../work/calendarGirls/CG Russian friend.jpg" alt="Russian Friend"></div>
 
     </div>
 
@@ -258,5 +248,6 @@
 
 </div>
 
+<script src="../../nav.js" defer></script>
 </body>
 </html>

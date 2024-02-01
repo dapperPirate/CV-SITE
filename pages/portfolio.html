@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
     <!--
     Big Heading
@@ -58,7 +57,7 @@
 
 
 </head>
-<body background="../work/calendarGirls/CG Russian friend.jpg">
+<body background="../work/calendarGirls/CG - single spot.jpg">
 
 <!--Navigation bar-->
 <nav class="navbar">
@@ -67,8 +66,10 @@
             <h1 id="navbar__title__JS">JS</h1>
             <h1 id="navbar__title__LD">LD</h1>
             </a>
+
+            <button class="mobile__nav__toggle" expanded="false"></button>
             
-            <ul class="navbar__menu">
+            <ul class="navbar__menu" data-visible="false">
             <li class="navbar__item"> <a href="../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
 
             <li class="navbar__item"> <a href="../pages/about.html" class="navbar__links" id="about-page">About</a> </li>
@@ -84,12 +85,10 @@
 
 <div class="portfolio__container">
 
-    <div class="portfolio__column">
-
         <div class=project__thumbnail__portfolio__page>
             <a href="../pages/portfolio/nativity.html">
-                <img class=project__thumbnail__image src="../work/nativity23/TheFirstVisit.jpg" alt="The Nativity Journey 2023">
-                <div class="project__thumbnail__overlay">
+                <img class=project__thumbnail__portfolio__image src="../work/nativity23/TheFirstVisit.jpg" alt="The Nativity Journey 2023">
+                <div class="project__thumbnail__portfolio__overlay">
                     <div class="project__thumbnail__title">The Nativity Journey</div>
                     <p class="project__thumbnail__description"> Winterhsall Estate 2023</p>
                 </div>
@@ -98,22 +97,18 @@
 
         <div class=project__thumbnail__portfolio__page>
             <a href="../pages/portfolio/calendarGirls.html">
-                <img class=project__thumbnail__image src="../work/calendarGirls/CG - all.jpg" alt="Calendar Girls - All">
-                <div class="project__thumbnail__overlay">
+                <img class=project__thumbnail__portfolio__image src="../work/calendarGirls/CG - all.jpg" alt="Calendar Girls - All">
+                <div class="project__thumbnail__portfolio__overlay">
                     <div class="project__thumbnail__title">Calendar Girls</div>
                     <p class="project__thumbnail__description"> Camberley Theatre 2023</p>
                 </div>
             </a>
         </div>
 
-    </div>
-
-    <div class="portfolio__column__2">
-
         <div class=project__thumbnail__portfolio__page>
             <a href="../pages/portfolio/cats.html">
-                <img class=project__thumbnail__image src="../work/cats/CATS - all.jpg" alt="Cats - All">
-                <div class="project__thumbnail__overlay">
+                <img class=project__thumbnail__portfolio__image src="../work/cats/CATS - all.jpg" alt="Cats - All">
+                <div class="project__thumbnail__portfolio__overlay">
                     <div class="project__thumbnail__title">Cats - 24 Hour Musical</div>
                     <p class="project__thumbnail__description"> Camberley Theatre 2023</p>
                 </div>
@@ -122,8 +117,8 @@
 
         <div class=project__thumbnail__portfolio__page>
             <a href="../pages/portfolio/9to5.html">
-                <img class=project__thumbnail__image src="../work/9to5/9to5-stay out.jpg" alt="9 to 5">
-                <div class="project__thumbnail__overlay">
+                <img class=project__thumbnail__portfolio__image src="../work/9to5/9to5-stay out.jpg" alt="9 to 5">
+                <div class="project__thumbnail__portfolio__overlay">
                     <div class="project__thumbnail__title">9 to 5 - 24 Hour Musical</div>
                     <p class="project__thumbnail__description"> Camberley Theatre 2022</p>
                 </div>
@@ -131,7 +126,6 @@
         </div>
 
 
-    </div>
 </div>
 
 </div>
@@ -162,6 +156,6 @@
 
 </div>
 
-<script src="app.js"></script>
+<script src="../nav.js" defer></script>
 </body>
 </html>

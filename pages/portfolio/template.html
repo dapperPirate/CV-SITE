@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
     <!--
     Big Heading
@@ -72,7 +71,9 @@
             <h1 id="navbar__title__LD">LD</h1>
             </a>
             
-            <ul class="navbar__menu">
+            <button class="mobile__nav__toggle" expanded="false"></button>
+            
+            <ul class="navbar__menu" data-visible="false">
             <li class="navbar__item"> <a href="../../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
 
             <li class="navbar__item"> <a href="../../pages/about.html" class="navbar__links" id="about-page">About</a> </li>
@@ -133,24 +134,7 @@
     </div>
 
 
-    <div class="production__images__container">
-
-        <div class="production__images__column1">
-
-            <div class="image"><img class=image src="../../work/" alt=""></div>
-
-        </div>
-
-        <div class="production__images__column2">
-
-            <div class="image"><img class=image src="../../work/" alt=""></div>
-
-        </div>
-        <div class="production__images__column3">
-
-            <div class="image"><img class=image src="../../work/" alt=""></div>
-
-        </div>
+    <div class="production__images__container" show-name="NAME OF SHOW">
 
     </div>
 
@@ -208,5 +192,6 @@
 
 </div>
 
+<script src="../../nav.js" defer></script>
 </body>
 </html>

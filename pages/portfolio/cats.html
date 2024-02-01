@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
     <!--
     Big Heading
@@ -72,8 +71,9 @@
             <h1 id="navbar__title__LD">LD</h1>
             </a>
             
-            <ul class="navbar__menu">
-            <li class="navbar__item"> <a href="../../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
+            <button class="mobile__nav__toggle" expanded="false"></button>
+            
+            <ul class="navbar__menu" data-visible="false">            <li class="navbar__item"> <a href="../../pages/portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a> </li>
 
             <li class="navbar__item"> <a href="../../pages/about.html" class="navbar__links" id="about-page">About</a> </li>
 
@@ -163,27 +163,16 @@
 
     <hr id="project__section__divider__line__2" >
 
-    <div class="production__images__container">
+    <div class="production__images__container" show-name="cats">
 
-        <div class="production__images__column1">
-
-            <div class="image"><img class=image src="../../work/cats/CATS - all.jpg" alt="All the Jellicle Cats together"></div>
-            <div class="image"><img class=image src="../../work/cats/theatre cat alone.jpg" alt="Gus the Theatre Cat stood alone"></div>
-            <div class="image"><img class=image src="../../work/cats/cats all front of stage.jpg" alt="The Jellicle cats front of stage"></div>
-
-        </div>
-
-        <div class="production__images__column2">
-            <div class="image"><img class=image src="../../work/cats/cats end of act one.jpg" alt="Jellicle cats at the end of Act One"></div>
-            <div class="image"><img class=image src="../../work/cats/theatre cat.jpg" alt="Gus the Theatre Cat with his friends"></div>
-            <div class="image"><img class=image src="../../work/cats/macavity.jpg" alt="Macavity the Mystery Cat"></div>
-    
-        </div>
-        <div class="production__images__column3">
-            <div class="image"><img class=image src="../../work/cats/act one opening.jpg" alt="Grisabella alone"></div>
-            <div class="image"><img class=image src="../../work/cats/memory.jpg" alt="Grisabella ascends"></div>
-    
-        </div>
+        <div class="image" ><img class=image src="../../work/cats/CATS - all.jpg" alt="All the Jellicle Cats together"></div>
+        <div class="image tall"><img class=image src="../../work/cats/theatre cat alone.jpg" alt="Gus the Theatre Cat stood alone"></div>
+        <div class="image"><img class=image src="../../work/cats/cats all front of stage.jpg" alt="The Jellicle cats front of stage"></div>
+        <div class="image"><img class=image src="../../work/cats/cats end of act one.jpg" alt="Jellicle cats at the end of Act One"></div>
+        <div class="image"><img class=image src="../../work/cats/theatre cat.jpg" alt="Gus the Theatre Cat with his friends"></div>
+        <div class="image tall"><img class=image src="../../work/cats/macavity.jpg" alt="Macavity the Mystery Cat"></div>
+        <div class="image tall"><img class=image src="../../work/cats/act one opening.jpg" alt="Grisabella alone"></div>
+        <div class="image tall"><img class=image src="../../work/cats/memory.jpg" alt="Grisabella ascends"></div>
 
     </div>
 
@@ -251,6 +240,6 @@
 
 </div>
 
-
+<script src="../../nav.js" defer></script>
 </body>
 </html>
